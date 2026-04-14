@@ -1,0 +1,30 @@
+{
+  "cv_scheme": "KFold(n_splits=5, shuffle=True, random_state=42)",
+  "feature_engineering": [
+    "fe_total_txn_value",
+    "fe_online_ratio",
+    "fe_utility_ratio",
+    "fe_reward_per_txn",
+    "fe_income_per_card",
+    "fe_limit_per_card",
+    "fe_income_to_limit",
+    "fe_txn_value_to_limit",
+    "fe_tenure_to_age",
+    "fe_income_per_child",
+    "fe_score_x_limit",
+    "fe_score_x_income",
+    "fe_travel_x_txn",
+    "fe_home_loan_combo",
+    "fe_region_card_type",
+    "fe_education_employment",
+    "fe_marital_children_band"
+  ],
+  "excluded_models": [
+    "MLPRegressor",
+    "CatBoostRegressor",
+    "StackingRegressor"
+  ],
+  "model_count": 11,
+  "registry_file": "outputs/forward_selection_oof_feature_engineered/registry.csv",
+  "matrix_file": "outputs/forward_selection_oof_feature_engineered/oof_matrix_cv5_rs42.csv"
+}

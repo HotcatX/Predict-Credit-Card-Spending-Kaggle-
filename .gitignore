@@ -5,3 +5,5 @@
 outputs/*
 !outputs/forward_selection_oof/
 !outputs/forward_selection_oof/**
+!outputs/forward_selection_oof_feature_engineered/
+!outputs/forward_selection_oof_feature_engineered/**
