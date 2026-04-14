@@ -1,0 +1,10 @@
+{
+  "cv_scheme": "KFold(n_splits=5, shuffle=True, random_state=42)",
+  "train_shape": [
+    40000,
+    23
+  ],
+  "model_count": 16,
+  "registry_file": "outputs/forward_selection_oof/registry.csv",
+  "matrix_file": "outputs/forward_selection_oof/oof_matrix_cv5_rs42.csv"
+}
