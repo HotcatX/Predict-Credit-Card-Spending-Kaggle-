@@ -4,7 +4,7 @@
     40000,
     23
   ],
-  "model_count": 24,
+  "model_count": 17,
   "registry_file": "outputs/forward_selection_oof/registry.csv",
   "matrix_file": "outputs/forward_selection_oof/oof_matrix_cv5_rs42.csv",
   "storage_format": "shared_index_npz + per_model_npz_shards",

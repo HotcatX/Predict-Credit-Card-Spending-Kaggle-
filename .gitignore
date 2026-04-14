@@ -7,9 +7,13 @@
 !train_fe_embedding_mlp.py
 !train_tabnet_base_and_fe.py
 !import_extra_oof_from_csvs.py
+!predict_scoring_local_models.py
 !convert_oof_bundle_to_shards.py
 !outputs/
 outputs/*
+!outputs/submissions/
+outputs/submissions/*
+!outputs/submissions/*__scoring.csv
 !outputs/forward_selection_oof/
 !outputs/forward_selection_oof/**
 !outputs/forward_selection_oof_feature_engineered/
