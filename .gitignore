@@ -2,6 +2,7 @@
 !.gitignore
 !README.md
 !assemble_oof_bundle.py
+!add_model_to_bundle_template.py
 !convert_oof_bundle_to_shards.py
 !outputs/
 outputs/*

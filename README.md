@@ -10,6 +10,7 @@ Included:
 - `outputs/forward_selection_oof_feature_engineered/shared/index_arrays.npz`
 - `outputs/forward_selection_oof_feature_engineered/shards/*.npz`
 - `assemble_oof_bundle.py`
+- `add_model_to_bundle_template.py`
 
 Notes:
 - The OOF bundle was rebuilt with a unified `5-Fold KFold(random_state=42)` scheme.
@@ -18,3 +19,4 @@ Notes:
 - A second bundle contains a feature-engineered version that excludes `MLP`, `CatBoost`, and `StackingRegressor`.
 - OOF storage is now lightweight: one shared alignment file plus one compressed NumPy shard per model.
 - Use `assemble_oof_bundle.py` to rebuild an aligned matrix dynamically for forward selection or hot updates.
+- Use `add_model_to_bundle_template.py` as the canonical entry point for adding one new aligned model shard into an existing bundle.
