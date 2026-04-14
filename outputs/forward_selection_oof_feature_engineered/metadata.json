@@ -26,5 +26,9 @@
   ],
   "model_count": 11,
   "registry_file": "outputs/forward_selection_oof_feature_engineered/registry.csv",
-  "matrix_file": "outputs/forward_selection_oof_feature_engineered/oof_matrix_cv5_rs42.csv"
+  "matrix_file": "outputs/forward_selection_oof_feature_engineered/oof_matrix_cv5_rs42.csv",
+  "storage_format": "shared_index_npz + per_model_npz_shards",
+  "registry_shards_file": "outputs/forward_selection_oof_feature_engineered/registry_shards.csv",
+  "shared_index_file": "outputs/forward_selection_oof_feature_engineered/shared/index_arrays.npz",
+  "dynamic_assembly_script": "assemble_oof_bundle.py"
 }

@@ -1,6 +1,8 @@
 *
 !.gitignore
 !README.md
+!assemble_oof_bundle.py
+!convert_oof_bundle_to_shards.py
 !outputs/
 outputs/*
 !outputs/forward_selection_oof/

@@ -4,3 +4,9 @@
 - `registry.csv`: one row per canonical model with normalized file name and OOF RMSE
 - `oof_matrix_cv3_rs42.csv`: aligned OOF matrix for direct forward selection / blending
 - `models/`: per-model OOF files with columns `customer_id`, `target_monthly_spend`, `fold_id`, `oof_prediction`
+
+## Lightweight Storage
+
+- Shared alignment arrays are stored once in `shared/index_arrays.npz`.
+- Each model OOF prediction is stored separately as a compressed `.npz` shard in `shards/`.
+- Use `assemble_oof_bundle.py` to rebuild an aligned OOF matrix on demand.
