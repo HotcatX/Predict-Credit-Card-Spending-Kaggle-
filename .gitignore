@@ -4,6 +4,9 @@
 !assemble_oof_bundle.py
 !add_model_to_bundle_template.py
 !train_missing_blackbox_fe_models.py
+!train_fe_embedding_mlp.py
+!train_tabnet_base_and_fe.py
+!import_extra_oof_from_csvs.py
 !convert_oof_bundle_to_shards.py
 !outputs/
 outputs/*
