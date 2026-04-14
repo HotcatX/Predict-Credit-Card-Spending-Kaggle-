@@ -3,6 +3,7 @@
 !README.md
 !assemble_oof_bundle.py
 !add_model_to_bundle_template.py
+!train_missing_blackbox_fe_models.py
 !convert_oof_bundle_to_shards.py
 !outputs/
 outputs/*
